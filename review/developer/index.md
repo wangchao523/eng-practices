@@ -2,9 +2,8 @@
 
 本节中的页面包含开发人员进行代码审查的最佳实践。这些指南可帮助您更快地完成审核并获得更高质量的结果。您不必全部阅读它们，但它们旨在适用于每个Google开发人员，并且许多人发现阅读整套设备很有帮助。
 
--   [Writing Good CL Descriptions](cl-descriptions.md)
--   [Small CLs](small-cls.md)
--   [How to Handle Reviewer Comments](handling-comments.md)
+-   [写出好的ChangeList说明](cl-descriptions.md)
+-   [最小化每个ChangeList](small-cls.md)
+-   [如何处理评审人的评论](handling-comments.md)
 
-See also [How to Do a Code Review](../reviewer/), which gives detailed guidance
-for code reviewers.
+也可以查看 [如何来做代码评审](../reviewer/), 这是一个为代码评审人提供的详细文档
