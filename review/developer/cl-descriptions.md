@@ -1,4 +1,4 @@
-# Writing good CL descriptions
+# 写出好的ChangeList说明
 
 
 
@@ -6,6 +6,7 @@ A CL description is a public record of **what** change is being made and **why**
 it was made. It will become a permanent part of our version control history, and
 will possibly be read by hundreds of people other than your reviewers over the
 years.
+一个ChangeList说明应该包含**当前做的事情**和**为什么这么做**。它将成为我们的版本控制历史的永久部分，并且除了你的评论者之外，几年以后还有数百人可能阅读它。
 
 Future developers will search for your CL based on its description. Someone in
 the future might be looking for your change because of a faint memory of its
@@ -13,11 +14,11 @@ relevance but without the specifics handy. If all the important information is
 in the code and not the description, it's going to be a lot harder for them to
 locate your CL.
 
-## First Line {#firstline}
+## 第一行 {#firstline}
 
-*   Short summary of what is being done.
-*   Complete sentence, written as though it was an order.
-*   Follow by empty line.
+*   正在做什么的简短摘要。
+*   完整的句子，就好像是订单的写法。
+*   后边跟一个空行。
 
 The **first line** of a CL description should be a short summary of
 *specifically* **what** *is being done by the CL*, followed by a blank line.
@@ -43,7 +44,7 @@ benchmark results, and links to design documents.
 
 Even small CLs deserve a little attention to detail. Put the CL in context.
 
-## Bad CL Descriptions {#bad}
+## 糟糕的ChangeList说明 {#bad}
 
 "Fix bug" is an inadequate CL description. What bug? What did you do to fix it?
 Other similarly bad descriptions include:
@@ -59,7 +60,7 @@ Some of those are real CL descriptions. Their authors may believe they are
 providing useful information, but they are not serving the purpose of a CL
 description.
 
-## Good CL Descriptions {#good}
+## 不错的ChangeList说明 {#good}
 
 Here are some examples of good descriptions.
 
@@ -76,7 +77,7 @@ The first few words describe what the CL actually does. The rest of the
 description talks about the problem being solved, why this is a good solution,
 and a bit more information about the specific implementation.
 
-### Refactoring
+### 重构
 
 > Construct a Task with a TimeKeeper to use its TimeStr and Now methods.
 >
@@ -96,7 +97,7 @@ past. The rest of the description talks about the specific implementation, the
 context of the CL, that the solution isn't ideal, and possible future direction.
 It also explains *why* this change is being made.
 
-### Small CL that needs some context
+### 简单的ChangeList需要有上下文介绍
 
 > Create a Python3 build rule for status.py.
 >
@@ -110,7 +111,7 @@ The first sentence describes what's actually being done. The rest of the
 description explains *why* the change is being made and gives the reviewer a lot
 of context.
 
-## Review the description before submitting the CL
+## 在提交代码前，自己审查ChangeList说明
 
 CLs can undergo significant change during review. It can be worthwhile to review
 a CL description before submitting the CL, to ensure that the description still
