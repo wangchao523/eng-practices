@@ -1,11 +1,5 @@
 # 写出好的ChangeList说明
 
-
-
-A CL description is a public record of **what** change is being made and **why**
-it was made. It will become a permanent part of our version control history, and
-will possibly be read by hundreds of people other than your reviewers over the
-years.
 一个ChangeList说明应该包含**当前做的事情**和**为什么这么做**。它将成为我们的版本控制历史的永久部分，并且除了你的评论者之外，几年以后还有数百人可能阅读它。
 
 Future developers will search for your CL based on its description. Someone in
